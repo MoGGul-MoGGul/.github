@@ -9,9 +9,9 @@
 
   <a href="https://moggulmoggul.kro.kr">홈페이지</a>
   &nbsp; | &nbsp;
-  <a href="https://www.notion.so/API-22a8aa8cd09580ee904ae7c9479372f8?source=copy_link">API 명세서</a>
+  <a href="https://www.notion.so/API-2648aa8cd0958140a4e4f5d59a636846">API 명세서</a>
   &nbsp; | &nbsp;
-  <a href="https://www.notion.so/2168aa8cd095804699c9eeb1bcf0376f">Notion</a>
+  <a href="https://www.notion.so/2648aa8cd0958053b77ed2507bb8941e">Notion</a>
 </div>
 
 ----
@@ -64,6 +64,143 @@
 
 3. **개인 지식 저장소를 넘어 커뮤니티로 확장:** 
    - 개인화된 꿀팁 아카이브(MVP) 구축을 시작으로, 팀이나 그룹이 함께 사용하는 '그룹 보관함', 모두가 참여하는 '공개 피드' 기능으로 발전시켜 집단 지성이 시너지를 내는 플랫폼을 구축.
+
+---
+
+# 📌 주요 기능
+
+## 0. 회원가입 | 로그인
+
+### 회원가입
+- 아이디, 닉네임, 비밀번호를 사용합니다.  
+- 회원가입 전에 아이디와 닉네임의 **중복 확인**이 가능합니다.
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+### 로그인
+- 아이디와 비밀번호를 사용하여 로그인합니다.  
+- 로그인에 성공하면 **메인 페이지로 이동**합니다.  
+- **아이디 찾기** 및 **비밀번호 재설정 기능**이 포함되어 있습니다.  
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+---
+
+## 1. 꿀팁(팁) 관리
+
+**기능 설명**: 사용자가 URL을 통해 꿀팁을 생성하고 관리할 수 있습니다.  
+
+### 주요 과정
+1. 사용자가 **URL, 제목, 태그**를 입력합니다.  
+2. **AI가 URL의 내용을 요약**하고 **썸네일 이미지를 생성**합니다.  
+3. 사용자가 요약된 내용과 썸네일을 확인 후 **보관함에 저장**합니다.  
+
+### 기술 요소
+- **AI 연동**: AI 서버의 `/async-index/`와 `/task-status/` API를 사용하여 비동기적으로 요약 및 썸네일 생성을 처리합니다.  
+- **수정/삭제**: 저장된 꿀팁의 제목, 요약, 태그, 공개 설정을 수정하고 삭제할 수 있습니다.  
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+
+## 2. 사용자 프로필 및 팔로우
+
+**기능 설명**: 사용자 프로필 페이지에서 프로필 정보를 확인하고 다른 사용자를 팔로우할 수 있습니다.  
+
+### 주요 기능
+- **프로필 조회**: 닉네임, 아이디, 팔로워 수, 팔로잉 수 등을 확인할 수 있습니다.
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+- **팔로우/언팔로우**: 버튼 클릭으로 다른 사용자를 팔로우하거나 취소할 수 있습니다.
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+- **팔로워/팔로잉 목록**: 팔로워 수 또는 팔로잉 수를 클릭하면 모달 창에서 목록을 확인할 수 있습니다.  
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+
+## 3. 보관함 및 그룹 기능
+
+**기능 설명**: 꿀팁을 저장할 보관함을 생성하고 관리하며, 그룹을 만들어 멤버들과 보관함을 공유할 수 있습니다.  
+
+### 주요 기능
+- **개인 보관함**: 보관함 이름을 지정하여 생성, 수정, 삭제할 수 있습니다.
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+- **그룹 생성**: 그룹을 생성하고 다른 사용자를 멤버로 초대할 수 있습니다.
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+  
+- **그룹 보관함**: 그룹에 속한 멤버들은 그룹 보관함에 꿀팁을 등록할 수 있습니다.  
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+
+## 4. 즐겨찾기 및 주간 랭킹
+
+**기능 설명**: 꿀팁을 즐겨찾기하고, 즐겨찾기 수에 기반한 주간 랭킹을 확인할 수 있습니다.  
+
+### 주요 기능
+- **즐겨찾기**: 꿀팁을 즐겨찾기에 추가하거나 삭제할 수 있습니다.
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+ 
+- **주간 랭킹**: 꿀팁의 주간 조회수를 기반으로 랭킹을 제공합니다.  
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+
+## 5. 알림 및 검색
+
+**기능 설명**: 팔로우하는 사용자의 활동에 대한 알림을 받고, 꿀팁을 검색할 수 있습니다.  
+
+### 주요 기능 (알림)
+- **실시간 알림**: 팔로우하는 사용자가 새 꿀팁을 등록하거나 그룹 보관함에 꿀팁이 추가되면 알림이 생성됩니다.  
+- **알림 조회**: 사용자는 자신에게 온 알림 목록을 확인할 수 있습니다.  
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+### 주요 기능 (검색)
+- **꿀팁 검색**: 공개된 꿀팁을 키워드로 검색할 수 있습니다.
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
+
+- **사용자 검색**: 아이디를 통해 사용자를 검색하여 목록을 조회할 수 있습니다.  
+
+<div align="center">
+<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+</div>
 
 ---
 
