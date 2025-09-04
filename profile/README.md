@@ -19,7 +19,7 @@
 ## 📌 프로젝트 개요
 
 - **프로젝트명:** 모꿀모꿀(MoGGulMoGGul)
-- **프로젝트 기간:** 2025.07.01 ~ 2025.09.02
+- **프로젝트 기간:** 2025.07.01 ~ 2025.09.05
 - **프로젝트 형태:** 개인 프로젝트
 - **목표:** 꿀팁을 자신이 원하는 곳에 정리하고 공유하는 서비스 개발
 - **주요 타겟 사용자:** 꿀팁 저장이 필요한 모든 사용자
@@ -76,8 +76,10 @@
 - 회원가입 전에 아이디와 닉네임의 **중복 확인**이 가능합니다.
 
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/1.gif" style="width: 50%; height: auto;">
 </div>
+
+<br/>
 
 ### 로그인
 - 아이디와 비밀번호를 사용하여 로그인합니다.  
@@ -85,10 +87,9 @@
 - **아이디 찾기** 및 **비밀번호 재설정 기능**이 포함되어 있습니다.  
 
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/2.gif" style="width: 50%; height: auto;">
 </div>
 
----
 
 ## 1. 꿀팁(팁) 관리
 
@@ -104,9 +105,15 @@
 - **수정/삭제**: 저장된 꿀팁의 제목, 요약, 태그, 공개 설정을 수정하고 삭제할 수 있습니다.  
 
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/3.gif" width="500px"> <img src="./assets/4.gif" width="500px">
 </div>
 
+<br/>
+
+- **꿀팁 상세 조회**: 저장된 꿀팁의 상세 정보를 조회 할 수 있습니다.
+<div align="center">
+<img src="./assets/17.gif" style="width: 50%; height: auto;">
+</div>
 
 ## 2. 사용자 프로필 및 팔로우
 
@@ -114,23 +121,14 @@
 
 ### 주요 기능
 - **프로필 조회**: 닉네임, 아이디, 팔로워 수, 팔로잉 수 등을 확인할 수 있습니다.
-
-<div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
-</div>
-
 - **팔로우/언팔로우**: 버튼 클릭으로 다른 사용자를 팔로우하거나 취소할 수 있습니다.
-
-<div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
-</div>
-
 - **팔로워/팔로잉 목록**: 팔로워 수 또는 팔로잉 수를 클릭하면 모달 창에서 목록을 확인할 수 있습니다.  
 
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/5.gif" style="width: 50%; height: auto;">
 </div>
 
+<br/>
 
 ## 3. 보관함 및 그룹 기능
 
@@ -140,19 +138,23 @@
 - **개인 보관함**: 보관함 이름을 지정하여 생성, 수정, 삭제할 수 있습니다.
 
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/7.gif" style="width: 50%; height: auto;">
 </div>
+
+<br/>
 
 - **그룹 생성**: 그룹을 생성하고 다른 사용자를 멤버로 초대할 수 있습니다.
+- **그룹 보관함**: 그룹에 속한 멤버들은 그룹 보관함에 꿀팁을 등록 및 수정, 삭제 할 수 있습니다.  
 
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/8.gif" style="width: 50%; height: auto;">
 </div>
-  
-- **그룹 보관함**: 그룹에 속한 멤버들은 그룹 보관함에 꿀팁을 등록할 수 있습니다.  
 
+<br/>
+
+- **그룹 멤버 관리** : 그룹에 속한 멤버를 조회하고 사용자 아이디 검색을 통해 멤버로 초대할 수 있습니다.
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/16.gif" style="width: 50%; height: auto;">
 </div>
 
 
@@ -163,17 +165,15 @@
 ### 주요 기능
 - **즐겨찾기**: 꿀팁을 즐겨찾기에 추가하거나 삭제할 수 있습니다.
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/9.gif" width="500px"> <img src="./assets/10.gif" width="500px">
 </div>
 
-<div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
-</div>
+<br/>
  
 - **주간 랭킹**: 꿀팁의 주간 조회수를 기반으로 랭킹을 제공합니다.  
 
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/12.gif" style="width: 50%; height: auto;">
 </div>
 
 
@@ -186,21 +186,18 @@
 - **알림 조회**: 사용자는 자신에게 온 알림 목록을 확인할 수 있습니다.  
 
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/13.gif" width="500px"> <img src="./assets/14.gif" width="500px">
 </div>
+
+<br/>
 
 ### 주요 기능 (검색)
 - **꿀팁 검색**: 공개된 꿀팁을 키워드로 검색할 수 있습니다.
 
 <div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
+<img src="./assets/15.gif" style="width: 50%; height: auto;">
 </div>
 
-- **사용자 검색**: 아이디를 통해 사용자를 검색하여 목록을 조회할 수 있습니다.  
-
-<div align="center">
-<img src="./assets/로고2.png" style="width: 30%; height: auto;">
-</div>
 
 ---
 
