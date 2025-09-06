@@ -1,7 +1,7 @@
 ## 모꿀모꿀(MoGGulMoGGul)
 
 <div align="center">
-  <img src="./assets/로고2.png" style="width: 30%; height: auto;">
+  <img src="./assets/home.png" style="width: 80%; height: auto;">
 </div>
 
 <div align="center">
